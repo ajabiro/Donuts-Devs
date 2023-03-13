@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Donut } from './donut';
+import { DonutAPIService } from './donut-api.service';
 
 @Component({
   selector: 'app-root',

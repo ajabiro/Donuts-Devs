@@ -1,0 +1,28 @@
+<h2>Hall of Fame</h2>
+<table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Innovation</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+        <td>
+            <div *ngFor="let d of displayDevs.complete">
+            {{d.firstName}} </div>
+        </td>
+        <td>
+            <div *ngFor="let d of displayDevs.complete">
+            {{d.lastName}} </div>
+        </td>
+        <td style="text-align:left">
+            <div *ngFor="let d of displayDevs.complete">
+            {{d.innovation}} </div>
+         </td>
+         <td> 
+            <div *ngFor="let d of displayDevs.complete">
+            {{d.year}} </div>
+        </td>
+    </tr>
+
+  </table>
